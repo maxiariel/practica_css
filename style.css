@@ -36,14 +36,14 @@ color:white;
   color:#eead31;
 }
 .icon-menu{  
- cursor: pointer;
- border: 1px solid white;
- padding: 5px 12px;
- border-radius: 5px;
- font-size: 1.6em;
- color: #eead31;
- display: block;
- margin-right: 25px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-size: 1.6em;
+  color: #eead31;
+  display: block;
+  margin-right: 25px;
 }
 .menu{
 position: absolute;
@@ -58,6 +58,7 @@ margin: 0;
 height: 40%;
 opacity:0;
 visibility: hidden;
+transition: all 0.5s;
 }
 .menu__items{
 text-align: center;
@@ -69,10 +70,10 @@ transition: all 0.5s;
 }
 
 .menu__link{
- color: white;
- text-decoration: none;
- font-size: 1.5em;
- transition: all 0.3s;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: all 0.3s;
 }
 .menu__items:hover .menu__link{
   color: #eead31;
@@ -111,6 +112,10 @@ transition: all 0.5s;
   background: #000;
   border-radius: 50% ;
   border: 1px solid white;
+}
+.mostrar{
+  opacity: 1;
+  visibility: visible;
 }
 .banner{
   background: url(./img/baner.jpg);
@@ -206,9 +211,9 @@ position: relative;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: white;
-   border-top: 4px solid #eead31;
-   border-bottom: 4px solid #eead31;
-   padding: 15px 0;
+  border-top: 4px solid #eead31;
+  border-bottom: 4px solid #eead31;
+  padding: 15px 0;
 }
 .suggestion{
   text-align: center;
@@ -235,7 +240,7 @@ position: relative;
   width: 250px;
   height: 250px;
   border-radius: 50%;
-   position: relative;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(0%); 
@@ -246,7 +251,7 @@ position: relative;
   background-position-x: center;
 }
 .suggestion__txt{
-   font-size: 1.4em;
+  font-size: 1.4em;
   color: #555;
 }
 .suggestion__name{
@@ -300,10 +305,10 @@ position: relative;
   transform: translateX(-50%) translateY(-50%);
   font-size: 2em;
   color: #eead31;
-    border: 1px solid grey;
-   border-radius: 50%;
-   padding: 6%;
-   transition: all 0.5s;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 6%;
+  transition: all 0.5s;
 }
 .fa-solid:hover{
   color: #000;
