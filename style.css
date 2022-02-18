@@ -47,7 +47,7 @@ color:white;
 }
 .menu{
 position: absolute;
-top: 10%;
+top: 11%;
 left: 10%;
 transform: translateX(-8%) translateY(-1%);
 width: 95%;
@@ -55,7 +55,7 @@ background: #333;
 list-style: none;
 padding: 0;
 margin: 0;
-height: 40%;
+height: 45%;
 opacity:0;
 visibility: hidden;
 transition: all 0.5s;
